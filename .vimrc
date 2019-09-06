@@ -1,0 +1,15 @@
+set number
+set paste
+set smartindent
+syntax on
+set hlsearch
+set t_Co=256
+set autoindent
+set shiftwidth=2
+set tabstop=2
+set expandtab
+set hidden
+set autoindent
+set smarttab
+colorscheme molokai
+colorscheme ron

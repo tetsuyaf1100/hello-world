@@ -1,0 +1,25 @@
+[user]
+  name = 
+  email = 
+[alias]
+  st = status
+  co = checkout
+  br = branch
+  cm = commit
+  df = diff
+  gr = grep
+[core]
+  whitespace = cr-at-eol
+[diff]
+  tool = vimdiff
+[difftool]
+  prompt = false
+[merge]
+  tool = vimdiff
+[mergetool]
+  prompt = false
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
